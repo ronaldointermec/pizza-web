@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@radix-ui/react-label": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "input": "^1.0.1",
+    "label": "^0.2.2",
     "localforage": "^1.10.0",
     "lucide-react": "^0.468.0",
     "match-sorter": "^8.0.0",
