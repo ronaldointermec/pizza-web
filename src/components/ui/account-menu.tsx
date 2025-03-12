@@ -7,8 +7,9 @@ import {
   DropdownMenuTrigger,
 } from '@radix-ui/react-dropdown-menu'
 import { Building, ChevronDown, LogOut } from 'lucide-react'
-
 import { Button } from './button'
+
+
 
 export function AccountMenu() {
   return (
@@ -35,8 +36,8 @@ export function AccountMenu() {
           <span>Perfil da loja</span>
         </DropdownMenuItem>
         <DropdownMenuItem className="flex flex-row text-rose-500 dark:text-rose-400">
-          <LogOut className="mr-2 h-4 w-4" />
-          <span>Sair</span>
+          <LogOut className="mr-2 h-8 w-4" />
+          <span >Sair</span>
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
